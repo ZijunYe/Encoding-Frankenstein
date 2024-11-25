@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang ="en" xmlns="http://www.tei-c.org/ns/1.0">
+
+<!-- Information about TEI section -->
+     <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Frankenstein</title>
+                <author>
+                  <persName>Mary Wollstonecraft (Godwin) Shelley</persName>
+                </author>
+
+                <editor>
+                  <persName>Zijun Ye</persName>
+                  <persName>Aditya Kandel</persName>
+                </editor>
+    
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Henry Colburn and Richard Bentley</publisher>
+                <date when="1831">1831</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Frankenstein</title>
+                    <author>Mary Wollstonecraft (Godwin) Shelley</author>
+                    <publisher>Henry Colburn and Richard Bentley</publisher>
+                    <date when="1831">1831</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+    <!-- Main body of the transcribed text -->
+    <body>
+      <div type="chapter" n="16">
+        <head>Chapter 16</head>
+        <!-- Chapter 16 Material -->
+        <p>Cursed, cursed creator! Why did I live? Why, in that instant, did I not extinguish the spark of existence which you had so wantonly bestowed? I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          This opening demonstrates the Creature's intense existential despair and rage against Victor Frankenstein, highlighting the central theme of creator and creation.
+          <bibl>Mary Shelley, Frankenstein, 1818.</bibl>
+        </note>
+
+        <p>When night came I quitted my retreat and wandered in the wood; and now, no longer restrained by the fear of discovery, I gave vent to my anguish in fearful howlings...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          Shelley's use of natural imagery (the "cold stars" and "bare trees") contrasts the Creature's inner turmoil, reinforcing the Romantic preoccupation with nature's indifference.
+          <bibl>Critical Source: Mellor, Anne K. "Mary Shelley: Her Life, Her Fiction, Her Monsters," 1988.</bibl>
+        </note>
+
+        <p>The sun rose; I heard the voices of men and knew that it was impossible to return to my retreat during that day...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          The Creature's reflection on his "imprudence" emphasizes his capacity for moral reasoning, challenging assumptions about his monstrosity.
+          <bibl>Secondary Source: Cantor, Paul A. "Frankenstein as Modern Myth," 1976.</bibl>
+        </note>
+
+        <p>The pleasant sunshine and the pure air of day restored me to some degree of tranquillity; and when I considered what had passed at the cottage...</p>
+
+        <p>As night advanced, I placed a variety of combustibles around the cottage...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          The act of burning the cottage symbolizes the Creature's descent into vengeance and mirrors Victor's destructive obsession with knowledge.
+          <bibl>Mary Shelley, Frankenstein, 1818.</bibl>
+        </note>
+
+        <p>And now, with the world before me, whither should I bend my steps? I resolved to fly far from the scene of my misfortunes...</p>
+
+        <p>At this time a slight sleep relieved me from the pain of reflection, which was disturbed by the approach of a beautiful child...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          The encounter with the child demonstrates the Creature's conflicting desire for connection and capacity for violence when rejected.
+          <bibl>Critical Analysis: Baldick, Chris. "In Frankenstein's Shadow," 1987.</bibl>
+        </note>
+
+        <p>"Boy, you will never see your father again; you must come with me."</p>
+        <p>The child still struggled and loaded me with epithets which carried despair to my heart...</p>
+
+        <p>"This was then the reward of my benevolence! I had saved a human being from destruction, and as a recompense I now writhed under the miserable pain of a wound...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          The Creature's wound becomes symbolic of the emotional and physical suffering inflicted by humanity's rejection.
+          <bibl>Mary Shelley, Frankenstein, 1818.</bibl>
+        </note>
+
+        <p>"After some weeks my wound healed, and I continued my journey. The labours I endured were no longer to be alleviated by the bright sun or gentle breezes of spring...</p>
+
+        <p>But my toils now drew near a close, and in two months from this time I reached the environs of Geneva...</p>
+        <!-- Annotation -->
+        <note type="analysis">
+          Geneva, Victor's birthplace, serves as a geographical marker for the Creature's growing identification of Victor as the source of his misery.
+          <bibl>Historical Context: Wolfson, Susan J. "Borderlines: The Shiftings of Gender in British Romanticism," 2006.</bibl>
+        </note>
+      </div>
+
+      <!-- Chapter 17 Material -->
+      <div type="chapter" n="17">
+        <head>Chapter 17</head>
+      </div> 
+
+
+    </body>
+  </text>
+
+</TEI>
