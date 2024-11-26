@@ -1,55 +1,426 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xml:lang ="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Frankenstein</title>
+        <author>
+          <persName>Mary Wollstonecraft (Godwin) Shelley</persName>
+        </author>
 
-<!-- Information about TEI section -->
-     <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Frankenstein</title>
-                <author>
-                  <persName>Mary Wollstonecraft (Godwin) Shelley</persName>
-                </author>
+        <editor>
+          <persName>Zijun Ye</persName>
+          <persName>Aditya Kandel</persName>
+        </editor>
 
-                <editor>
-                  <persName>Zijun Ye</persName>
-                  <persName>Aditya Kandel</persName>
-                </editor>
-    
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Henry Colburn and Richard Bentley</publisher>
-                <date when="1831">1831</date>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Frankenstein</title>
-                    <author>Mary Wollstonecraft (Godwin) Shelley</author>
-                    <publisher>Henry Colburn and Richard Bentley</publisher>
-                    <date when="1831">1831</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Henry Colburn and Richard Bentley</publisher>
+        <date when="1831">1831</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Frankenstein</title>
+          <author>Mary Wollstonecraft (Godwin) Shelley</author>
+          <publisher>Henry Colburn and Richard Bentley</publisher>
+          <date when="1831">1831</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
 
-    <text>
-    <!-- Main body of the transcribed text -->
+  <text>
     <body>
       <div type="chapter" n="17">
         <head>Chapter 17</head>
-        <!-- Chapter 17 Material -->
-      </div> 
+        <p> 
+          The being finished speaking and fixed his looks upon me 
+          in the expectation of a reply. But I was bewildered, perplexed, and unable to arrange my ideas sufficiently to understand the
+          full extent of his proposition. He continued—
+        </p>
+        <p>
+          <said who="#creature">
+              You must create a female for me, with whom I can live in the interchange of those sympathies necessary for my being. 
+              This you alone can do; and I demand it of you as a right which you must not refuse to concede.
+          </said>
+        </p>
+        <p> 
+          The latter part of his tale had kindled anew in me the anger that had died away while he narrated his peaceful life among the cottagers, and, as he said this, 
+          I could no longer suppress the rage that burned within me.
+        </p>
+        <p>
+          <said who="#victor">I do refuse it</said>, I replied;
+          <said who="#victor"> and no torture shall ever extort a consent from me.
+            You may render me the most miserable of men, but you shall never make me <term xml:id="base">base</term> in my own eyes. 
+            Shall I create another like yourself, whose joint wickedness might desolate the world. 
+            Begone! I have answered you; you may torture me, but I will never consent.</said>
+        </p>
+        <p>
+          <said who="#creature">
+            You are in the wrong, 
+           </said> 
+          replied the fiend; 
+          <said who="#creature">
+            and instead of threatening, I am content to reason with you. I am malicious because I am miserable. 
+            Am I not shunned and hated by all mankind? You, my creator, would tear me to pieces and triumph; 
+            remember that, and tell me why I should pity man more than he pities me? You would not call it murder 
+            if you could precipitate me into one of those ice-rifts and destroy my frame, the work of your own hands. 
+            Shall I respect man when he condemns me? Let him live with me in the interchange of kindness, 
+            and instead of injury I would bestow every benefit upon him with tears of gratitude at his acceptance. 
+            But that cannot be; the human senses are insurmountable barriers to our union. 
+            Yet mine shall not be the submission of <term xml:id="abject">abject</term> slavery. 
+            I will revenge my injuries; if I cannot inspire love, I will cause fear, 
+            and chiefly towards you my <term xml:id="arch-enemy">arch-enemy</term>, because my creator, 
+            do I swear inextinguishable hatred. Have a care; I will work at your destruction, 
+            nor finish until I desolate your heart, so that you shall curse the hour of your birth.
+        </said>
+        </p>
 
-      <div type="characters">
-        <head> Characters </head> 
-        <!-- List of characters appear in this chapter -->
-      </di> 
+        <note type="gloss" target="#base">
+            Base: adjective; It means morally low, dishonorable, selfinish, or mean. 
+            (<bibl>
+            <title>Oxford English Dictionary</title>, 
+            <date when="2024">2024</date>,
+            <link target="https://www.oed.com/dictionary/base_adj"></link>)
+          </bibl>
+        </note>
+        <note type="gloss" target="#abject">
+        Abject: adjective;  sunk to or existing in a low,bad and severe state or condition. 
+          <bibl>
+            (<title>Merriam-Webster Dictionary</title>, 
+            <date when="2024">2024</date>
+            <link target="https://www.merriam-webster.com/dictionary/abject"></link>)
+          </bibl>
+        </note>
+        <note type="gloss" target="#arch-enemy">
+          Arch-enemy: noun; defined as "a chief enemy" 
+            (<bibl>
+              <title>Oxford English Dictionary</title>, 
+              <date when="2024">2024</date>
+              <link target="https://www.oed.com/dictionary/arch-enemy_n?tab=factsheet#40160580"></link>) 
+            </bibl>
+        </note>
 
+       <p>
+        A fiendish rage animated him as he said this; 
+        his face was wrinkled into contortions too horrible for human eyes to behold; 
+        but presently he calmed himself and proceeded—
+       </p>
+       <p>
+        <said who="#creature">
+            "I intended to reason. This passion is detrimental to me; for you do not reflect that you are the cause of its excess. 
+            If any being felt emotions of <term xml:id="benevolence">benevolence</term> towards me, I should return them an hundred 
+            and an hundred fold; for that one creature's sake, I would make peace with the whole kind! But I now indulge in dreams of 
+            bliss that cannot be realised. What I ask of you is reasonable and moderate; I demand a creature of another sex, but as 
+            hideous as myself; the gratification is small, but it is all that I can receive, and it shall content me. It is true, we shall 
+            be monsters, cut off from all the world; but on that account we shall be more attached to one another. Our lives will not 
+            be happy, but they will be harmless, and free from the misery I now feel. Oh! my creator, make me happy; let me feel 
+            gratitude towards you for one benefit! Let me see that I excite the sympathy of some existing thing; do not deny me 
+            my request!"
+        </said>
+       </p>
+        <p>
+            I was moved. I shuddered when I thought of the possible consequences of my consent; but I felt that there was some 
+            <term xml:id="justice-01">justice</term> in his argument. His tale, and the feelings he now expressed, proved him to be a creature of fine sensations; 
+            and did I not, as his maker, owe him all the portion of happiness that it was in my power to bestow? He saw my change 
+            of feeling, and continued—
+        </p>
+
+        <note type="gloss" target="#benevolence">
+            Benevolence: Noun; refers to the disposition to do good or to express kindness towards others. 
+            (<bibl>
+                <title>Oxford English Dictionary</title>, 
+                <date when="2024">2024</date>
+                <link target="https://www.oed.com/dictionary/benevolence_n?tab=factsheet#23087351"></link>
+            </bibl>).
+        </note>
+
+        <note type="annotation" target="#justice-01">
+          In this context, "justice" refers to Victor's recognition of the Creature's valid moral argument. Anne K. Mellor, Anne K. Mellor, in "Making a Monster"
+          highlights that this moment reflects the creator's  ethical responsibility to their creation. Victor acknowledges his duty to redress the suffering caused by his 
+          abandonment of the Creature.
+          (<bibl>
+              <title>Making a Monster</title>, 
+              <author>Anne K. Mellor</author>, 
+              <date when="1988">1988</date>
+              <link target="https://knarf.english.upenn.edu/Articles/mellor2.html"></link>.
+          </bibl>)
+        </note>
+
+        <p>
+          <said who="#creature">
+            If you consent, neither you nor any other human being shall ever see us again: I will go to the vast <term xml:id="wild-south-america">wilds of South America</term>. 
+            My food is not that of man; I do not destroy the lamb and the kid, to glut my appetite; acorns and berries afford me sufficient 
+            nourishment. My companion will be of the same nature as myself, and will be content with the same fare. We shall make our bed of 
+            dried leaves; the sun will shine on us as on man, and will ripen our food. The picture I present to you is peaceful and human, and 
+            you must feel that you could deny it only in the wantonness of power and cruelty. Pitiless as you have been towards me, I now see 
+            compassion in your eyes: let me seize the favourable moment, and persuade you to promise what I so ardently desire.
+          </said>
+        </p>
+        <p>
+          <said who="#victor">You propose,</said> replied I, 
+          <said who="#victor">to fly from the habitations of man, 
+          to dwell in those wilds where the beasts of the field will be your only companions. 
+          How can you, who long for the love and sympathy of man, persevere in this exile? You will return, 
+          and again seek their kindness, and you will meet with their <term xml:id="detestation">detestation</term>; 
+          your evil passions will be renewed, and you will then have a companion to aid you in the task of destruction. 
+          This may not be: cease to argue the point, for I cannot consent.
+          </said>
+        </p>
+
+        <note type="annotation" target="#wilds-south-america">
+          The "wilds of South America" refer to the vast, untamed natural landscapes of the continent. 
+          In Frankenstein, this phrase reflects the Creature's desire for isolation and a peaceful existence away from human civilization. 
+          (<bibl>
+            <title>SparkNotes: Frankenstein Themes</title>,
+            <date when="2024">2024</date>
+            <link target="https://www.sparknotes.com/lit/frankenstein/themes/"></link>
+          </bibl>).
+        </note>
+
+        <note type="gloss" target="#detestation">
+          Detestation: noun; the feeling or mental state of detesting, intense dislike or hatred. 
+        (<bibl>
+            <title>Oxford English Dictionary</title>,
+            <date when="2024">2024</date>
+            <link target="https://www.oed.com/dictionary/detestation_n?tab=factsheet#7061644"> </link>, 
+            accessed 2024-11-25.
+        </bibl>).
+        </note>
+
+        <p>
+        <said who="#creature">
+        How inconstant are your feelings! but a moment ago you were moved by my representations, 
+        and why do you again harden yourself to my complaints? I swear to you, by the earth which I inhabit, 
+        and by you that made me, that, with the companion you bestow, I will quit the neighbourhood of man, 
+        and dwell as it may chance, in the most savage of places. My evil passions will have fled, 
+        for I shall meet with sympathy! my life will flow quietly away, and, in my dying moments, I shall not curse my maker.
+        </said>
+        </p>
+
+        <p>
+          His words had a strange effect upon me. I compassionated him, and sometimes felt a wish to 
+          console him; but when I looked upon him, when I saw the filthy mass that moved and talked, 
+          my heart sickened, and my feelings were altered to those of horror and hatred. 
+          I tried to stifle these sensations; I thought, that as I could not sympathise with him, 
+          I had no right to withhold from him the small portion of happiness which was yet in my power to bestow.
+        </p>
+
+        <p>
+          <said who="#victor">You swear,</said> I said, 
+          <said who="#victor">
+          to be harmless; but have you not already shown a degree of malice that should reasonably make me distrust you? 
+          May not even this be a <term xml:id="feint">feint</term> that will increase your triumph by affording a wider scope for your revenge.
+          </said> 
+        </p>
+
+        <p>
+          <said who="#creature">
+          How is this? I must not be trifled with: and I demand an answer. 
+          If I have no ties and no affections, hatred and vice must be my portion; 
+          the love of another will destroy the cause of my crimes, and I shall become a thing, 
+          of whose existence every one will be ignorant. My vices are the children of a forced solitude that I abhor; 
+          and my virtues will necessarily arise when I live in communion with an equal. 
+          I shall feel the affections of a sensitive being, and become linked to the chain of existence and events, from which I am now excluded.
+          </said>
+        </p>
+
+        <note type="gloss" target="#feint">
+            Feint: noun; a deceptive action or movement designed to mislead an opponent.
+            (<bibl>
+                <title>Oxford English Dictionary</title>,  
+                <date when="2024">2024</date>
+                <link target="https://www.oed.com/dictionary/feint_n?tab=factsheet#4582897"></link>.
+            </bibl>)
+        </note>
+
+        <p>
+          I paused some time to reflect on all he had related, and the various arguments which he had employed. 
+          I thought of the promise of virtues which he had displayed on the opening of his existence, 
+          and the subsequent blight of all kindly feeling by the loathing and scorn which his protectors had manifested towards him. 
+          His power and threats were not omitted in my calculations: a creature who could exist in the ice-caves of the glaciers, and hide himself from pursuit among the ridges of inaccessible precipices, 
+          was a being possessing faculties it would be vain to cope with. After a long pause of reflection, 
+          I concluded that the <term xml:id="justice02">justice</term> due both to him and my fellow-creatures demanded of me that I should comply with his request. 
+          Turning to him, therefore, I said—
+        </p>
+        
+        <p>
+          <said who="victor">
+            I consent to your demand, on your solemn oath to quit Europe for ever, and every other place in the neighbourhood of man, 
+            as soon as I shall deliver into your hands a female who will accompany you in your exile.
+          </said>
+        </p>
+
+        <note type="annotation" target="#justice02">
+          "Justice" in this context highlights Victor's recognition of his dual obligations: to the Creature as his creator and to humanity as a fellow being. 
+          According to Anne K. Mellor in "Making a Monster", this moment reveals Victor's internal conflict between fulfilling his ethical responsibility 
+          as a creator and safeguarding the interests of society. 
+          (<bibl>
+              <title>Making a Monster</title>, 
+              <author>Anne K. Mellor</author>, 
+              <date when="1988">1988</date>, 
+              <link target="https://knarf.english.upenn.edu/Articles/mellor2.html"></link>.
+          </bibl>)
+      </note>
+
+      <p>
+        <said who="creature">I swear,</said>he cried, 
+        <said who="creature">
+          by the sun, and by the blue sky of Heaven, and by the fire of love that burns my heart, that if you grant my prayer, 
+          while they exist you shall never behold me again. Depart to your home, and commence your labours: 
+          I shall watch their progress with unutterable anxiety; and fear not but that when you are ready I shall appear.
+        </said>
+      </p>
+
+      <p>
+        Saying this, he suddenly quitted me, fearful, perhaps, of any change in my sentiments. 
+        I saw him descend the mountain with greater speed than the flight of an eagle, 
+        and quickly lost among the undulations of the <term xml:id="sea-of-ice">sea of ice</term>.
+      </p>
+
+      <p>
+        His tale had occupied the whole day; and the sun was upon the verge of the horizon when he departed. 
+        I knew that I ought to hasten my descent towards the valley, as I should soon be encompassed in darkness; 
+        but my heart was heavy, and my steps slow. The labour of winding among the little paths of the mountains, 
+        and fixing my feet firmly as I advanced, perplexed me, occupied as I was by the emotions which the occurrences of the day had produced. 
+        Night was far advanced, when I came to the half-way resting-place, and seated myself beside the fountain. 
+        The stars shone at intervals, as the clouds passed from over them; the dark pines rose before me, and every here and there a broken tree lay on the ground: 
+        it was a scene of wonderful solemnity, and stirred strange thoughts within me. I wept bitterly; and clasping my hands in agony, I exclaimed,
+
+        <said who="victor">
+          Oh! stars and clouds, and winds, ye are all about to mock me: if ye really pity me, crush sensation and memory; 
+          let me become as nought; but if not, depart, depart, and leave me in darkness.
+        </said>
+      </p>
+
+      <p>
+        These were wild and miserable thoughts; but I cannot describe to you how the <term xml:id="eternal-twinkling">eternal twinkling of the stars weighed upon me</term>, 
+        and how I listened to every blast of wind, as if it were a dull ugly <term xml:id="siroc">siroc</term> on its way to consume me.
+      </p>
+
+      <p>
+        Morning dawned before I arrived at the village of Chamounix; I took no rest, but returned immediately to Geneva. 
+        Even in my own heart I could give no expression to my sensations—they weighed on me with a mountain's weight, and 
+        their excess destroyed my agony beneath them. Thus I returned home, and entering the house, presented myself to the family. 
+        My haggard and wild appearance awoke intense alarm; but I answered no question, scarcely did I speak. 
+        I felt as if I were placed under a ban—as if I had no right to claim their sympathies—as if never more might I enjoy companionship with them. 
+        Yet even thus I loved them to adoration; and to save them, I resolved to dedicate myself to my most abhorred task. 
+        The prospect of such an occupation made every other circumstance of existence pass before me like a dream; 
+        and that thought only had to me the reality of life.
+      </p>
+
+      <note type="annotation" target="#sea-of-ice">
+        "sea of ice": refers to the Mer de Glace glacier in the Swiss Alps, symbolizing isolation and the sublime force of nature. 
+        This setting underscores the emotional and physical distance between Victor and his Creature.
+        (<bibl>
+            <title>SparkNotes Frankenstein: Setting</title>, 
+            <date when="2024">2024</date>
+            <link target="https://www.sparknotes.com/lit/frankenstein/setting/"></link>.
+        </bibl>)
+      </note>
+
+      <note type="metaphor" target="#eternal-twinkling">
+        The phrase "eternal twinkling of the stars" metaphorically represents the 
+        indifferent and unchanging nature of the universe, highlighting Victor's feelings of isolation and insignificance.
+      </note>
+
+      <note type="gloss" target="#siroc">
+          Siroc: noun; is an archaic spelling of "sirocco," a hot, dry wind from North Africa across the Mediterranean to southern Europe. 
+          Victor uses it metaphorically to describe his consuming despair.
+          (<bibl>
+              <title>Wordnik- Definition and Meaning</title>, 
+              <date when="2024">2024</date>
+              <link target="https://www.wordnik.com/words/siroc"></link>.
+          </bibl>)
+      </note>
+
+      </div>
     </body>
 
     <back>
-      <head> Citations </head> 
-      <!-- List of Citation -->
-    </back> 
+      <head type="characters"> Characters </head>
+        <listPerson>
+          <person xml:id="victor">
+              <persName>
+                  <forename>Victor</forename>
+                  <surname>Frankenstein</surname>
+              </persName>
+              <note type="description">
+                  The protagonist and narrator of much of the story, Victor Frankenstein is a scientist driven by ambition 
+                  to unlock the secrets of life. His obsessive pursuit of knowledge leads to the creation of the Creature 
+                  and a series of tragic events.
+              </note>
+              <note type="role">
+                  Creator of the Creature; represents hubris and the dangers of unchecked ambition.
+              </note>
+          </person>
+          <person xml:id="creature">
+              <persName>The Creature</persName>
+              <note type="description">
+                  The being brought to life by Victor Frankenstein's experiments. The Creature is initially innocent and 
+                  benevolent but becomes vengeful and destructive after repeated rejection and isolation by humanity.
+              </note>
+              <note type="role">
+                  Victor's creation; represents the consequences of neglect, societal rejection, and ethical irresponsibility.
+              </note>
+          </person>
+      </listPerson>
+
+
+
+      <head type="citations"> Citations </head>
+      <listBibl>
+            <bibl>
+                <title>Frankenstein, or the Modern Prometheus</title>
+                <author>Mary Shelley</author>
+                <date when="1831">1831</date>
+                <publisher>Henry Colburn and Richard Bentley</publisher>
+                <pubPlace>London</pubPlace>
+                <note>1831 revised edition of Frankenstein.</note>
+            </bibl>
+            <bibl>
+                <title>Making a Monster</title>
+                <author>Anne K. Mellor</author>
+                <date when="1988">1988</date>
+                <publisher>Knopf</publisher>
+                <pubPlace>New York</pubPlace>
+                <note>An analysis of the ethical and Romantic themes in Frankenstein.</note>
+                <link target="https://knarf.english.upenn.edu/Articles/mellor2.html"></link>
+            </bibl>
+            <bibl>
+                <title>Oxford English Dictionary</title>
+                <editor>Oxford University Press</editor>
+                <date when="2024">2024</date>
+                <note>Online version of the Oxford English Dictionary.</note>
+                <link target="https://www.oed.com/"></link>
+            </bibl>
+            <bibl>
+                <title>SparkNotes: Frankenstein Themes</title>
+                <date when="2024">2024</date>
+                <note>Exploration of themes in Mary Shelley's Frankenstein.</note>
+                <link target="https://www.sparknotes.com/lit/frankenstein/themes/"></link>
+            </bibl>
+            <bibl>
+                <title>SparkNotes: Frankenstein Setting</title>
+                <date when="2024">2024</date>
+                <note>Analysis of the setting in Frankenstein.</note>
+                <link target="https://www.sparknotes.com/lit/frankenstein/setting/"></link>
+            </bibl>
+            <bibl>
+                <title>Merriam-Webster Dictionary</title>
+                <editor>Merriam-Webster, Inc.</editor>
+                <date when="2024">2024</date>
+                <note>Online dictionary providing definitions and etymologies.</note>
+                <link target="https://www.merriam-webster.com/"></link>
+            </bibl>
+            <bibl>
+                <title>Wordnik: Siroc</title>
+                <date when="2024">2024</date>
+                <note>Definition and examples of the term "siroc."</note>
+                <link target="https://www.wordnik.com/words/siroc"></link>
+            </bibl>
+        </listBibl>
+    </back>
 
   </text>
 
