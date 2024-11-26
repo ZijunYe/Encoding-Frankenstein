@@ -9,8 +9,14 @@
         </author>
 
         <editor>
-          <persName>Zijun Ye</persName>
-          <persName>Aditya Kandel</persName>
+          <persName>
+                <forename>Zijun</forename>
+                <surname>Ye</surname>
+          </persName>
+          <persName>
+              <forename>Aditya</forename>
+              <surname>Kandel</surname>
+          </persName>
         </editor>
 
       </titleStmt>
@@ -80,25 +86,25 @@
             Base: adjective; It means morally low, dishonorable, selfinish, or mean. 
             (<bibl>
             <title>Oxford English Dictionary</title>, 
-            <date when="2024">2024</date>,
-            <link target="https://www.oed.com/dictionary/base_adj"></link>)
-          </bibl>
+            <date when="2024">2024</date>
+            <link target="https://www.oed.com/dictionary/base_adj"></link>
+          </bibl>).
         </note>
         <note type="gloss" target="#abject">
         Abject: adjective;  sunk to or existing in a low,bad and severe state or condition. 
           <bibl>
             (<title>Merriam-Webster Dictionary</title>, 
             <date when="2024">2024</date>
-            <link target="https://www.merriam-webster.com/dictionary/abject"></link>)
-          </bibl>
+            <link target="https://www.merriam-webster.com/dictionary/abject"></link>
+          </bibl>).
         </note>
         <note type="gloss" target="#arch-enemy">
           Arch-enemy: noun; defined as "a chief enemy" 
             (<bibl>
               <title>Oxford English Dictionary</title>, 
               <date when="2024">2024</date>
-              <link target="https://www.oed.com/dictionary/arch-enemy_n?tab=factsheet#40160580"></link>) 
-            </bibl>
+              <link target="https://www.oed.com/dictionary/arch-enemy_n?tab=factsheet#40160580"></link>
+            </bibl>).
         </note>
 
        <p>
@@ -108,7 +114,7 @@
        </p>
        <p>
         <said who="#creature">
-            "I intended to reason. This passion is detrimental to me; for you do not reflect that you are the cause of its excess. 
+            I intended to reason. This passion is detrimental to me; for you do not reflect that you are the cause of its excess. 
             If any being felt emotions of <term xml:id="benevolence">benevolence</term> towards me, I should return them an hundred 
             and an hundred fold; for that one creature's sake, I would make peace with the whole kind! But I now indulge in dreams of 
             bliss that cannot be realised. What I ask of you is reasonable and moderate; I demand a creature of another sex, but as 
@@ -116,7 +122,7 @@
             be monsters, cut off from all the world; but on that account we shall be more attached to one another. Our lives will not 
             be happy, but they will be harmless, and free from the misery I now feel. Oh! my creator, make me happy; let me feel 
             gratitude towards you for one benefit! Let me see that I excite the sympathy of some existing thing; do not deny me 
-            my request!"
+            my request!
         </said>
        </p>
         <p>
@@ -143,8 +149,8 @@
               <title>Making a Monster</title>, 
               <author>Anne K. Mellor</author>, 
               <date when="1988">1988</date>
-              <link target="https://knarf.english.upenn.edu/Articles/mellor2.html"></link>.
-          </bibl>)
+              <link target="https://knarf.english.upenn.edu/Articles/mellor2.html"></link>
+          </bibl>).
         </note>
 
         <p>
@@ -230,8 +236,8 @@
             (<bibl>
                 <title>Oxford English Dictionary</title>,  
                 <date when="2024">2024</date>
-                <link target="https://www.oed.com/dictionary/feint_n?tab=factsheet#4582897"></link>.
-            </bibl>)
+                <link target="https://www.oed.com/dictionary/feint_n?tab=factsheet#4582897"></link>
+            </bibl>).
         </note>
 
         <p>
@@ -264,7 +270,7 @@
       </note>
 
       <p>
-        <said who="creature">I swear,</said>he cried, 
+        <said who="creature">I swear, </said>he cried, 
         <said who="creature">
           by the sun, and by the blue sky of Heaven, and by the fire of love that burns my heart, that if you grant my prayer, 
           while they exist you shall never behold me again. Depart to your home, and commence your labours: 
@@ -315,8 +321,8 @@
         (<bibl>
             <title>SparkNotes Frankenstein: Setting</title>, 
             <date when="2024">2024</date>
-            <link target="https://www.sparknotes.com/lit/frankenstein/setting/"></link>.
-        </bibl>)
+            <link target="https://www.sparknotes.com/lit/frankenstein/setting/"></link>
+        </bibl>).
       </note>
 
       <note type="metaphor" target="#eternal-twinkling">
@@ -330,8 +336,8 @@
           (<bibl>
               <title>Wordnik- Definition and Meaning</title>, 
               <date when="2024">2024</date>
-              <link target="https://www.wordnik.com/words/siroc"></link>.
-          </bibl>)
+              <link target="https://www.wordnik.com/words/siroc"></link>
+          </bibl>).
       </note>
 
       </div>
@@ -346,21 +352,12 @@
                   <surname>Frankenstein</surname>
               </persName>
               <note type="description">
-                  The protagonist and narrator of much of the story, Victor Frankenstein is a scientist driven by ambition 
-                  to unlock the secrets of life. His obsessive pursuit of knowledge leads to the creation of the Creature 
-                  and a series of tragic events.
-              </note>
-              <note type="role">
                   Creator of the Creature; represents hubris and the dangers of unchecked ambition.
               </note>
           </person>
           <person xml:id="creature">
               <persName>The Creature</persName>
               <note type="description">
-                  The being brought to life by Victor Frankenstein's experiments. The Creature is initially innocent and 
-                  benevolent but becomes vengeful and destructive after repeated rejection and isolation by humanity.
-              </note>
-              <note type="role">
                   Victor's creation; represents the consequences of neglect, societal rejection, and ethical irresponsibility.
               </note>
           </person>
