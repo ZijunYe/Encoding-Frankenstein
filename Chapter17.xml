@@ -74,9 +74,9 @@
             Shall I respect man when he condemns me? Let him live with me in the interchange of kindness, 
             and instead of injury I would bestow every benefit upon him with tears of gratitude at his acceptance. 
             But that cannot be; the human senses are insurmountable barriers to our union. 
-            Yet mine shall not be the submission of <term xml:id="abject">abject</term> slavery. 
+            Yet mine shall not be the submission of abject slavery. 
             I will revenge my injuries; if I cannot inspire love, I will cause fear, 
-            and chiefly towards you my <term xml:id="arch-enemy">arch-enemy</term>, because my creator, 
+            and chiefly towards you my arch-enemy, because my creator, 
             do I swear inextinguishable hatred. Have a care; I will work at your destruction, 
             nor finish until I desolate your heart, so that you shall curse the hour of your birth.
         </said>
@@ -89,22 +89,6 @@
             <date when="2024">2024</date>
             <link target="https://www.oed.com/dictionary/base_adj"></link>
           </bibl>).
-        </note>
-        <note type="gloss" target="#abject">
-        Abject: adjective;  sunk to or existing in a low,bad and severe state or condition. 
-          <bibl>
-            (<title>Merriam-Webster Dictionary</title>, 
-            <date when="2024">2024</date>
-            <link target="https://www.merriam-webster.com/dictionary/abject"></link>
-          </bibl>).
-        </note>
-        <note type="gloss" target="#arch-enemy">
-          Arch-enemy: noun; defined as "a chief enemy" 
-            (<bibl>
-              <title>Oxford English Dictionary</title>, 
-              <date when="2024">2024</date>
-              <link target="https://www.oed.com/dictionary/arch-enemy_n?tab=factsheet#40160580"></link>
-            </bibl>).
         </note>
 
        <p>
@@ -127,7 +111,7 @@
        </p>
         <p>
             I was moved. I shuddered when I thought of the possible consequences of my consent; but I felt that there was some 
-            <term xml:id="justice-01">justice</term> in his argument. His tale, and the feelings he now expressed, proved him to be a creature of fine sensations; 
+            <term xml:id="justice01">justice</term> in his argument. His tale, and the feelings he now expressed, proved him to be a creature of fine sensations; 
             and did I not, as his maker, owe him all the portion of happiness that it was in my power to bestow? He saw my change 
             of feeling, and continued—
         </p>
@@ -141,7 +125,7 @@
             </bibl>).
         </note>
 
-        <note type="annotation" target="#justice-01">
+        <note type="annotation" target="#justice01">
           In this context, "justice" refers to Victor's recognition of the Creature's valid moral argument. Anne K. Mellor, Anne K. Mellor, in "Making a Monster"
           highlights that this moment reflects the creator's  ethical responsibility to their creation. Victor acknowledges his duty to redress the suffering caused by his 
           abandonment of the Creature.
@@ -216,7 +200,7 @@
           <said who="#victor">You swear,</said> I said, 
           <said who="#victor">
           to be harmless; but have you not already shown a degree of malice that should reasonably make me distrust you? 
-          May not even this be a <term xml:id="feint">feint</term> that will increase your triumph by affording a wider scope for your revenge.
+          May not even this be a feint that will increase your triumph by affording a wider scope for your revenge.
           </said> 
         </p>
 
@@ -230,15 +214,6 @@
           I shall feel the affections of a sensitive being, and become linked to the chain of existence and events, from which I am now excluded.
           </said>
         </p>
-
-        <note type="gloss" target="#feint">
-            Feint: noun; a deceptive action or movement designed to mislead an opponent.
-            (<bibl>
-                <title>Oxford English Dictionary</title>,  
-                <date when="2024">2024</date>
-                <link target="https://www.oed.com/dictionary/feint_n?tab=factsheet#4582897"></link>
-            </bibl>).
-        </note>
 
         <p>
           I paused some time to reflect on all he had related, and the various arguments which he had employed. 
@@ -308,7 +283,7 @@
         Morning dawned before I arrived at the village of Chamounix; I took no rest, but returned immediately to Geneva. 
         Even in my own heart I could give no expression to my sensations—they weighed on me with a mountain's weight, and 
         their excess destroyed my agony beneath them. Thus I returned home, and entering the house, presented myself to the family. 
-        My haggard and wild appearance awoke intense alarm; but I answered no question, scarcely did I speak. 
+        My <term xml:id="haggard-and-wild">haggard and wild appearance</term> awoke intense alarm; but I answered no question, scarcely did I speak. 
         I felt as if I were placed under a ban—as if I had no right to claim their sympathies—as if never more might I enjoy companionship with them. 
         Yet even thus I loved them to adoration; and to save them, I resolved to dedicate myself to my most abhorred task. 
         The prospect of such an occupation made every other circumstance of existence pass before me like a dream; 
@@ -340,6 +315,17 @@
           </bibl>).
       </note>
 
+      <note type="annotation" target="#haggard-and-wild">
+        Victor's "haggard and wild appearance" demonstrates the physical toll of his rejection of natural order 
+        and ethical responsibilities, symbolizing his internal conflict and despair.
+          (<bibl>
+              <title>Frankenstein: The Gothic Sublime</title>
+              <date when="2024">2024</date>
+              <link target="https://cliffsnotes-v1.prod.webpr.hmhco.com/literature/f/frankenstein/summary-and-analysis/chapter-17"></link>
+      
+          </bibl>).
+      </note>
+
       </div>
     </body>
 
@@ -362,8 +348,6 @@
               </note>
           </person>
       </listPerson>
-
-
 
       <head type="citations"> Citations </head>
       <listBibl>
@@ -416,6 +400,44 @@
                 <note>Definition and examples of the term "siroc."</note>
                 <link target="https://www.wordnik.com/words/siroc"></link>
             </bibl>
+             <bibl>
+                <title>CliffsNotes: Summary and Analysis Chapter 17</title>
+                <date when="2024">2024</date>
+                <note>Analysis of Chapter17 </note>
+                <link target="https://cliffsnotes-v1.prod.webpr.hmhco.com/literature/f/frankenstein/summary-and-analysis/chapter-17"></link>
+            </bibl>
+            <bibl>
+              <title>Text Encoding Initiative Guidelines</title>
+              <author>Text Encoding Initiative Consortium</author>
+              <date when="2024">2024</date>
+              <publisher>TEI Consortium</publisher>
+              <pubPlace>Oxford</pubPlace>
+              <link target="https://www.tei-c.org/Guidelines/"></link>
+          </bibl>
+
+          <bibl>
+            <title>Doing Digital Humanities: Practice, Training, Research</title>
+            <author>
+                <persName>
+                    <forename>Julia</forename>
+                    <surname>Flanders</surname>
+                </persName>
+                <persName>
+                    <forename>Syd</forename>
+                    <surname>Bauman</surname>
+                </persName>
+                <persName>
+                    <forename>Sarah</forename>
+                    <surname>Connell</surname>
+                </persName>
+            </author>
+            <date when="2016">2016</date>
+            <publisher>Routledge</publisher>
+            <pubPlace>New York</pubPlace>
+            <note>Chapter 7: Encoding Methodology for Digital Humanities.</note>
+            <link target="https://www.routledge.com/Doing-Digital-Humanities-Practice-Training-and-Research/Flanders-Bauman-Connell/p/book/9781138788592"></link>
+        </bibl>
+
         </listBibl>
     </back>
 
