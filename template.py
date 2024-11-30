@@ -1,14 +1,25 @@
 # Import necessary libraries
 import json
+import requests
 import pandas as pd
+from io import BytesIO
 from PIL import Image
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from PIL import Image
+from textblob import TextBlob
+
+
+url = 'https://raw.githubusercontent.com/ZijunYe/Encoding-Frankenstein/main/DataPreparation/Chapter17-Quotes/timeChunkQuote.json'
+
+response = requests.get(url)
+response.raise_for_status()
+
+data = response.json()
 
 # Load the JSON file
-with open('/content/timeChunkQuote.json', 'r') as file:
-    data = json.load(file)
+# with open('url', 'r') as file:
+#     data = json.load(file)
 
 # Initialize a DataFrame to store the analysis
 sentiment_data = []
@@ -50,17 +61,30 @@ plot_data.fillna(method='ffill', inplace=True)
 plot_data.fillna(method='bfill', inplace=True)  # Handle any leading NaNs
 
 # Define a function to map sentiment values to PNG file paths
+# def sentiment_to_png(sentiment):
+#     if sentiment > 0.12:
+#         return '/content/PartyingFace.png'  # Extreme Positive
+#     elif sentiment > 0.1:
+#         return '/content/GrinningFace.png'    # Positive 
+#     elif sentiment < -0.1:
+#         return '/content/CryingFace.png'    # Extreme negative 
+#     elif sentiment < -0.05:
+#         return '/content/FrowningFace.png'    # negative 
+#     else:
+#         return '/content/NeutralFace.png'  # neutral 
 def sentiment_to_png(sentiment):
+    base_url = 'https://raw.githubusercontent.com/ZijunYe/Encoding-Frankenstein/main/DataPreparation/sentimentalImage/'
+    
     if sentiment > 0.12:
-        return '/content/PartyingFace.png'  # Extreme Positive
+        return base_url + 'PartyingFace.png'  # Extreme Positive
     elif sentiment > 0.1:
-        return '/content/GrinningFace.png'    # Positive 
+        return base_url + 'GrinningFace.png'  # Positive
     elif sentiment < -0.1:
-        return '/content/CryingFace.png'    # Extreme negative 
+        return base_url + 'CryingFace.png'    # Extreme Negative
     elif sentiment < -0.05:
-        return '/content/FrowningFace.png'    # negative 
+        return base_url + 'FrowningFace.png'  # Negative
     else:
-        return '/content/NeutralFace.png'  # neutral 
+        return base_url + 'NeutralFace.png'   # Neutral
 
 
 # if sentiment > 0.1:
@@ -74,9 +98,18 @@ def sentiment_to_png(sentiment):
 #     else:
 #         return "😐"  # Neutral
 # Function to load a PNG image as an OffsetImage
-def get_png_image(path, zoom=0.1):
-    img = Image.open(path)  # Open the PNG image file
+
+# def get_png_image(path, zoom=0.1):
+#     img = Image.open(path)  # Open the PNG image file
+#     return OffsetImage(img, zoom=zoom)  # Convert to an OffsetImage
+
+
+def get_png_image_from_url(url, zoom=0.1):
+    response = requests.get(url)
+    response.raise_for_status()  # Check for errors
+    img = Image.open(BytesIO(response.content))  # Load image from the response content
     return OffsetImage(img, zoom=zoom)  # Convert to an OffsetImage
+
 
 # Plot the sentiment analysis
 fig, ax = plt.subplots(figsize=(14, 7))
@@ -86,13 +119,13 @@ ax.plot(plot_data.index, plot_data['Creature'], label='Creature', linestyle='-',
 # Add PNG images as markers for Victor
 for i, (x, y) in enumerate(zip(plot_data.index, plot_data['Victor'])):
     png_path = sentiment_to_png(y)
-    ab = AnnotationBbox(get_png_image(png_path, zoom=0.35), (i, y), frameon=False)
+    ab = AnnotationBbox(get_png_image_from_url(png_path, zoom=0.35), (i, y), frameon=False)
     ax.add_artist(ab)
 
 # Add PNG images as markers for Creature
 for i, (x, y) in enumerate(zip(plot_data.index, plot_data['Creature'])):
     png_path = sentiment_to_png(y)
-    ab = AnnotationBbox(get_png_image(png_path, zoom=0.35), (i, y), frameon=False)
+    ab = AnnotationBbox(get_png_image_from_url(png_path, zoom=0.35), (i, y), frameon=False)
     ax.add_artist(ab)
 
 # Add labels and legend
